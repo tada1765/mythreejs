@@ -1,0 +1,20 @@
+https://docs.pmnd.rs/react-three-fiber/examples/basics
+
+npm start
+
+npm i nice-color-palettes -dev--save
+
+@react-spectrum/combobox -> useless Piece of Shit 
+
+CSS files is not seperated, once import it affect every pages
+
+- see Shadematerials (class implementation)
+
+- let not try ReusingGLTF (not work & pc pe tahan)
+
+- When doing Cloud, the pic cloud.png not work
+when not in public folder and the loader(/public/cloud.png)
+Solve: put cloud.png in public & loader(/cloud.png)
+Or: import it like this
+(import img from '/src/Example/Shadermaterials/img/img1.jpg')  
+then use the img (loader(img))
