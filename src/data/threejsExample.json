@@ -9,7 +9,10 @@
   { "name": "Shader materials", "link": "/Shadermaterials" },
   { "name": "Simple physics demo", "link": "/Simplephysicsdemo" },
   { "name": "Trigger meshes", "link": "/Triggermeshes" },
-  { "name": "Re-using GLTFs", "link": "/ReusingGLTFs" },
   { "name": "Simple physics demo with debug bounds", "link": "/Simplephysicsdemowithdebugbounds" },
-  { "name": "Clouds", "link": "/clouds" }
+  { "name": "Clouds", "link": "/clouds" },
+  { "name": "Water Shader", "link": "/WaterShader" },
+  { "name": "Magic Mirror (not work)", "link": "/MagicMirror" },
+  { "name": "Raycast Vehicle", "link": "/RaycastVehicle" },
+  { "name": "Shader Fire", "link": "/ShaderFire" }
 ]

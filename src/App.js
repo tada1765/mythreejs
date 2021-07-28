@@ -13,9 +13,12 @@ import Navbar from './navbar/Navbar.js';
 // import './Example/Simplephysicsdemo.css'
 // import './Example/Triggermeshes.css'
 // import './Example/Simplephysicsdemowithdebugbounds.css'
-// import './Example/ReusingGLTFs/ReusingGLTFs.css'
 // import './Example/ReusingGLTFs/try.css'
-import './Example/Cloud/Cloud.css'
+// import './Example/Cloud/Cloud.css'
+// import './Example/WaterShader/WaterShader.css'
+// import './Example/MagicMirror/MagicMirror.css'
+// import './Example/RaycastVehicle/RaycastVehicle.css'
+import './Example/ShaderFire/ShaderFire.css'
 
 // # Example here:
 import BasicDemo from './Example/BasicDemo'; 
@@ -29,9 +32,12 @@ import Shadermaterials from './Example/Shadermaterials/Shadermaterials.js';
 import Simplephysicsdemo from './Example/Simplephysicsdemo.js';
 import Triggermeshes from './Example/Triggermeshes.js';
 import Simplephysicsdemowithdebugbounds from './Example/Simplephysicsdemowithdebugbounds.js';
-import ReusingGLTFs from './Example/ReusingGLTFs/ReusingGLTFs.js';
 import tryApp from './Example/ReusingGLTFs/try.js';
 import CloudApp from './Example/Cloud/Cloud.js';
+import WaterShader from './Example/WaterShader/WaterShader.js';
+import MagicMirrorApp from './Example/MagicMirror/MagicMirror.js';
+import RaycastVehicle from './Example/RaycastVehicle/RaycastVehicle.js';
+import ShaderFire from './Example/ShaderFire/ShaderFire.js';
 
 
 export default function App() {
@@ -50,9 +56,12 @@ export default function App() {
         <Route path="/Simplephysicsdemo" component={Simplephysicsdemo} />
         <Route path="/Triggermeshes" component={Triggermeshes} />
         <Route path="/Simplephysicsdemowithdebugbounds" component={Simplephysicsdemowithdebugbounds} />
-        <Route path="/ReusingGLTFs" component={ReusingGLTFs} />
         <Route path="/tryapp" component={tryApp} />
         <Route path="/clouds" component={CloudApp} />
+        <Route path="/WaterShader" component={WaterShader} />
+        <Route path="/MagicMirror" component={MagicMirrorApp} />
+        <Route path="/RaycastVehicle" component={RaycastVehicle} />
+        <Route path="/ShaderFire" component={ShaderFire} />
 
       </Switch>
     </Router>
